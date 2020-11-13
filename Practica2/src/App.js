@@ -29,7 +29,7 @@ class App extends Component {
       let ropaLista=[];
       snapshot.forEach(row=>{
         ropaLista.push({
-            id:row.key,
+            id:row.val().id,
             genero:row.val().genero,
             temporada:row.val().temporada,
             talla:row.val().talla,

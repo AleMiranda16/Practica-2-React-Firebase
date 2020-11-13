@@ -1,5 +1,5 @@
 import '../App.css';
-import { Button } from 'react-bootstrap';
+import { Button ,} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Formulario = (props) => {
@@ -54,7 +54,7 @@ const Formulario = (props) => {
             name="descripcion"
           />
         </div>
-        <Button><button>Enviar</button></Button>
+        <button><Button>Enviar</Button></button>
         </form>
       </div>
     );
